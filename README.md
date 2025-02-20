@@ -6,3 +6,5 @@
 
 
 ## Exemplo de Modelagem Lógica
+
+![Tabelas, colunas e relacionamento](modelagem-logica/modelo-logica.png)
