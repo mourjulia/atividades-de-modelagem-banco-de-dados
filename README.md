@@ -7,4 +7,4 @@
 
 ## Exemplo de Modelagem Lógica
 
-![Tabelas, colunas e relacionamento](modelagem-logica/modelo-logica.png)
+![Tabelas, colunas e relacionamento](modelagem-logica/modelo-logico.png)
