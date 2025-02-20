@@ -1,2 +1,8 @@
-# atividades-de-modelagem-banco-de-dados
- Exemplos e exercicios de Banco de Dados
+# Exemplos e exercicios de Banco de Dados
+
+## Exemplo de Modelagem Conceitual
+
+![Entidades, atributos e relacionamento](modelagem-conceitual/modelo-conceitual.png)
+
+
+## Exemplo de Modelagem Lógica
