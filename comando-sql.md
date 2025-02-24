@@ -35,4 +35,16 @@ CREATE TABLE produtos(
 );
 ```
 
+### Criando relacionamento entre tabelas e configurar chave estrangeira
+
+``` sql
+ALTER TABLE produtos
+    -- Adicionando uma restrição indicando o nome do relacionamento
+    ADD CONSTRAINT fk_produtos_fabricantes
+
+    -- Criando a chave-estrangeira (fabricante_id) que aponta para chave-primária (id) de OUTRA TABELA (fabricantes)
+    FOREIGN KEY (fabricante_id) REFERENCES fabricantes(id);
+
+```
+
  
