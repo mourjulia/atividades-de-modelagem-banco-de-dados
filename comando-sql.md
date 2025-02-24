@@ -44,7 +44,8 @@ ALTER TABLE produtos
 
     -- Criando a chave-estrangeira (fabricante_id) que aponta para chave-primária (id) de OUTRA TABELA (fabricantes)
     FOREIGN KEY (fabricante_id) REFERENCES fabricantes(id);
-
 ```
+
+
 
  
