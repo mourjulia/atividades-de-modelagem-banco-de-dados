@@ -7,7 +7,7 @@
 
 ## Exemplo de Modelagem Lógica
 
-![Tabelas, colunas e relacionamento](modelagem-logica/modelo-logico.png)
+![Tabelas, colunas e relacionamento](modelagem-logica/Sistema%20Vendas%20-%20Modelo%20Lógico.mwb.bak)
 
 
 ## Exemplos de modelagem Conceitual de acordo com o último exercicio
