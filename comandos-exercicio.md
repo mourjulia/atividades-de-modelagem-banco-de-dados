@@ -46,6 +46,29 @@ ALTER TABLE detalhes
     FOREIGN KEY (filmes_id) REFERENCES filmes(id);
 ```
 
- 
 
+#### Adiconando novos fabricantes
+```sql
+INSERT INTO fabricantes (nome) VALUES ('Positivo'),('Microsft')
+```
+
+#### Adiconando novos produtos 
+
+```sql
+INSERT INTO produtos(nome, descricao, preco, quantidade, fabricante_id)
+VALUES(
+    'Xbox Series S',
+    'Velocidade e desempenho de última geração.',
+    1997.00,
+    5,
+    8
+), 
+(
+    'Notebook Motion',
+    'Intel Dual Core 4GB de RAM, 128GB SSD e Tela 14,1 polegadas.',
+    1213.65,
+    8,
+    7
+);
+```
 
