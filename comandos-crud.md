@@ -33,4 +33,39 @@ SELECT *FROM fabricantes;
 INSERT INTO produtos(nome, descricao, preco, quantidade, fabricante_id)
 VALUES('Ultrabook', 'Equipamento de Última geração cheio de 
         recursos', 3999.45, 7, 2 )
+
+INSERT INTO produtos(nome, descricao, preco, quantidade, fabricante_id)
+VALUES(
+    'Tablet Android',
+    'Tablet com versão 16 do sistema operacional Android, Possui tela de 10 polegadas e armazenamento de 128 GB.',
+    900, 
+    12, 
+    5
+);
+
+
+
+INSERT INTO produtos(nome, descricao, preco, quantidade, fabricante_id)
+VALUES(
+    'Geladeira',
+    'Refrigerador frost-free com acesso à intenet',
+    5000,
+    12,
+    6
+), 
+(
+    'Iphone 18 Pro Max Ferradão',
+    'Smartphone Apple cheio de frescura e caro para caramba',
+    9666.66,
+    3,
+    3
+), (
+    'Ipad Mini',
+    'Tablet Apple com tela retina display e varias outras coisas',
+    4999.12,
+    5,
+    3
+);
 ```
+
+
