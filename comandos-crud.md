@@ -120,7 +120,7 @@ SELECT nome, descricao, preco FROM produtos WHERE fabricante_id != 7;
 ------
 
 ## UPDATE (Fabricantes e Produtos) 
-````sql
+```sql
 -- CUIDADO💣💣💣💣📌📌📌!!!!!!! UPDATE SEMPRE acompanha WHERE 
 -- Trocar o nome do fabricante Asus para Asus do Brasil
 UPDATE fabricantes SET nome = 'Asus do Brasil' WHERE id = 1;
@@ -131,8 +131,14 @@ UPDATE produtos SET quantidade = 10 WHERE preco <2000 AND NOT fabricante_id = 8;
 
 ```
 
----
-
+## UPDATE (Fabricantes e Produtos) 
 ```sql
+-- CUIDADO💣💣💣💣📌📌📌!!!!!!! UPDATE SEMPRE acompanha WHERE 
 
+DELETE FROM fabricantes WHERE id = 4;
+DELETE FROM fabricantes WHERE id = 1;
+
+DELETE FROM produtos WHERE id = 4;
+
+DELETE FROM fabricantes WHERE id = 3;
 ```
