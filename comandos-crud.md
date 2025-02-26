@@ -117,3 +117,16 @@ SELECT nome, descricao, preco FROM produtos WHERE NOT fabricante_id = 7;
 SELECT nome, descricao, preco FROM produtos WHERE fabricante_id != 7;
 ```
 
+------
+
+## UPDATE (Fabricantes e Produtos) 
+````sql
+-- CUIDADO💣💣💣💣📌📌📌!!!!!!! UPDATE SEMPRE acompanha WHERE 
+-- Trocar o nome do fabricante Asus para Asus do Brasil
+UPDATE fabricantes SET nome = 'Asus do Brasil' WHERE id = 1;
+
+-- Mini-exeicício: alterar a quantidade para 10 dos produtos que custam abaixo de 2000 exceto o da Microsoft.
+
+
+
+```
