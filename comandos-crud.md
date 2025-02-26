@@ -101,8 +101,19 @@ SELECT nome, preco FROM produtos WHERE preco >= 2000 AND preco <=6000;
 
 ```sql
 -- Exibir nome, descricao dos produtos da apple e da samsung
-SELECT nome, descricao FROM produtos WHERE fabricante_id = 3  OR  fabricante_id = 5
+SELECT nome, descricao FROM produtos WHERE fabricante_id = 3  OR  fabricante_id = 5;
 
 -- Versão usando a função SQL IN()
 SELECT nome, descricao FROM produtos WHERE fabricante_id IN(3, 5);
 ```
+
+#### NÃO (NOT)
+
+```sql
+-- Nome de todos os produtos exceto o da positivo
+SELECT nome, descricao, preco FROM produtos WHERE NOT fabricante_id = 7;
+
+-- Versão usando operador relacional de "diferença/diferente"
+SELECT nome, descricao, preco FROM produtos WHERE fabricante_id != 7;
+```
+
