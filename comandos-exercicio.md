@@ -74,9 +74,15 @@ VALUES(
 );
 ```
 
-# Exercício 02
+# Mini-exercício 02
 
 ```sql
 SELECT nome, descricao  FROM produtos WHERE fabricante_id = 3;
 ```
 
+# Mini-exercício 03
+
+```sql
+-- Exibir nome, descricao dos produtos da apple e da samsung (USANDO (OU))
+SELECT nome, descricao FROM produtos WHERE fabricante_id = 3  OR  fabricante_id = 5
+```
