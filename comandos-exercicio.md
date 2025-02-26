@@ -46,7 +46,7 @@ ALTER TABLE detalhes
     FOREIGN KEY (filmes_id) REFERENCES filmes(id);
 ```
 
-# Exercício 
+# Exercício  01
 
 
 #### Adiconando novos fabricantes
@@ -74,5 +74,9 @@ VALUES(
 );
 ```
 
+# Exercício 02
 
-##
+```sql
+SELECT nome, descricao  FROM produtos WHERE fabricante_id = 3;
+```
+
