@@ -126,9 +126,13 @@ SELECT nome, descricao, preco FROM produtos WHERE fabricante_id != 7;
 UPDATE fabricantes SET nome = 'Asus do Brasil' WHERE id = 1;
 
 -- Mini-exeicício: alterar a quantidade para 10 dos produtos que custam abaixo de 2000 exceto o da Microsoft.
-UPDATE produtos SET quantidade = 10 WHERE 
 
-UPDATE produtos SET quantidade = 10 WHERE preco <2000 AND NOT fabricante_id = 8 
+UPDATE produtos SET quantidade = 10 WHERE preco <2000 AND NOT fabricante_id = 8;
 
 ```
 
+---
+
+```sql
+
+```
