@@ -86,3 +86,52 @@ SELECT nome, descricao  FROM produtos WHERE fabricante_id = 3;
 -- Exibir nome, descricao dos produtos da apple e da samsung (USANDO (OU))
 SELECT nome, descricao FROM produtos WHERE fabricante_id = 3  OR  fabricante_id = 5
 ```
+
+## EXERCÍCIO 
+
+#### Adicionando novos generos
+
+```sql
+INSERT INTO generos (nomedogenero) VALUES ('Terror'), ('Suspense'), ('Fantasia'), ('Ação');
+
+
+INSERT INTO filmes (titulodofilme, datadelancamento, generos_id)
+VALUES(
+    'Invocação do mal 1',
+    '2013-09-13',
+    1
+);
+
+INSERT INTO filmes (titulodofilme, datadelancamento, generos_id)
+VALUES(
+    'O Iluminado',
+    '1980-10-29',
+    2
+);
+
+INSERT INTO filmes (titulodofilme, datadelancamento, generos_id)
+VALUES(
+    'Wicked',
+    '2024-11-22',
+    3
+);
+
+INSERT INTO filmes (titulodofilme, datadelancamento, generos_id)
+VALUES(
+    'Busca Implacável',
+    '2008-01-30',
+    4
+);
+
+INSERT INTO detalhes (filmes_id, duracaodofilme, sinopse, orcamento, bilheteria)
+VALUES(
+   1,
+   112,
+   'Invocação do Mal 1, segue os investigadores paranormais Ed e Lorraine Warren, que tentam salvar uma família de uma entidade demoníaca em sua casa.',
+   20000000,
+   319000000
+)
+
+
+```
+
