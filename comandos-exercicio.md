@@ -128,10 +128,37 @@ VALUES(
    1,
    112,
    'Invocação do Mal 1, segue os investigadores paranormais Ed e Lorraine Warren, que tentam salvar uma família de uma entidade demoníaca em sua casa.',
-   119000000,
-   319000000
+   119000000.00,
+   319000000.00
 );
 
+---- MOSTRAR filme e generos
 
+SELECT
+    filmes.titulodofilme  AS "Nome do filme",
+    generos.nomedogenero AS "nome do gênero",
+    FROM filmes INNER JOIN generos
+    ON filmes.generos_id = generos.id
+    ORDER BY "Nome do filme" ASC, "nome do gênero" DESC;
+
+---- MOSTRAR filme e sinopse
+
+SELECT
+    filme.titulodofilme AS "Nome do filme",
+    detalhes.sinopse AS "Resumo do filme"
+    FROM filmes JOIN detalhes
+    ON  filmes.id = detalhes.filmes_id;
+
+
+---- MOSTRAR filme, genero e detalhes  
+
+SELECT 
+    filmes.titulodofilme  AS "Nome do filme",
+    generos.nomedogenero AS "nome do gênero",
+    detalhes.sinopse AS "Resumo do filme"
+    FROM filmes INNER JOIN generos
+    ON filmes.generos_id = generos.id
+    INNER JOIN detalhes
+    ON  filmes.id = detalhes.filmes_id;
 ```
 
