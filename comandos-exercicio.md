@@ -128,9 +128,9 @@ VALUES(
    1,
    112,
    'Invocação do Mal 1, segue os investigadores paranormais Ed e Lorraine Warren, que tentam salvar uma família de uma entidade demoníaca em sua casa.',
-   20000000,
+   119000000,
    319000000
-)
+);
 
 
 ```
